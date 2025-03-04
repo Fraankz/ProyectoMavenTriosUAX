@@ -1,14 +1,22 @@
-# Usa la imagen oficial de OpenJDK 17
-FROM openjdk:17-jdk-slim
-
-# Configura el directorio de trabajo
+# Usa una imagen de Maven para compilar la aplicación
+FROM maven:3.8.6-openjdk-17 AS build
 WORKDIR /app
 
-# Copia el archivo WAR generado por Maven
-COPY target/*.war app.war
+# Copia todo el código fuente
+COPY . .
 
-# Expone el puerto en el que correrá la app
+# Ejecuta Maven para compilar el WAR
+RUN mvn clean package
+
+# Usa una imagen de OpenJDK para ejecutar la aplicación
+FROM openjdk:17-jdk-slim
+WORKDIR /app
+
+# Copia el archivo WAR desde la etapa anterior
+COPY --from=build /app/target/*.war app.war
+
+# Expone el puerto 8080
 EXPOSE 8080
 
-# Comando para ejecutar la aplicación
+# Ejecuta la aplicación
 CMD ["java", "-jar", "app.war"]
