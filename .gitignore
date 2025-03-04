@@ -31,12 +31,6 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
-
 # Default ignored files
 /shelf/
 /workspace.xml
@@ -45,3 +39,11 @@ build/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+
