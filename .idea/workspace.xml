@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/controladores/InvitadoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/InvitadoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/modelo/Invitado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Añadidas clases Invitado, InvitadoDAO e InvitadoServlet a sus respectivos paquetes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,24 +20,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Fraankz"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fraankz&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Fraankz/ProyectoMavenTriosUAX.git",
-    "accountId": "55090d26-6c48-47ad-b38d-f41d2f3814d4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fraankz/ProyectoMavenTriosUAX.git&quot;,
+    &quot;accountId&quot;: &quot;55090d26-6c48-47ad-b38d-f41d2f3814d4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2toZ8SZF30DFEOmu6W6wZ8lLRyr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,20 +46,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741020228125</updated>
-      <workItem from="1741020229742" duration="5937000" />
+      <workItem from="1741020229742" duration="6759000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea">
       <option name="closed" value="true" />
@@ -100,6 +95,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea" />
+    <MESSAGE value="Añadidas clases Invitado, InvitadoDAO e InvitadoServlet a sus respectivos paquetes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidas clases Invitado, InvitadoDAO e InvitadoServlet a sus respectivos paquetes" />
   </component>
 </project>
