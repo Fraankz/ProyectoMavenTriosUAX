@@ -2,16 +2,10 @@
 FROM maven:3.8.6-eclipse-temurin-17 AS build
 WORKDIR /app
 
-# Copia el archivo pom.xml primero para aprovechar la caché de Docker
-COPY pom.xml .
+# Copia todo el proyecto
+COPY . .
 
-# Descarga las dependencias antes de copiar el código fuente completo
-RUN mvn dependency:go-offline
-
-# Ahora copia el resto del código fuente
-COPY src/ src/
-
-# Ejecuta Maven para compilar el WAR
+# Ejecuta Maven para compilar la aplicación
 RUN mvn clean package
 
 # Etapa de ejecución (Runtime)
