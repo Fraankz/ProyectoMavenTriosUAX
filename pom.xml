@@ -45,7 +45,7 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>com.heroku</groupId>
+                                    <groupId>com.render</groupId>
                                     <artifactId>webapp-runner</artifactId>
                                     <version>9.0.30.0</version>
                                     <destFileName>webapp-runner.jar</destFileName>
