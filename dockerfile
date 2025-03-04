@@ -9,7 +9,7 @@ COPY . .
 RUN mvn clean package
 
 # Usa una imagen de OpenJDK para ejecutar la aplicación
-FROM openjdk:17-jdk-slim
+FROM maven:3.8.6-eclipse-temurin-17 AS build
 WORKDIR /app
 
 # Copia el archivo WAR desde la etapa anterior
