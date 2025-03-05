@@ -2,7 +2,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.eventos</groupId>
     <artifactId>gestion-invitados</artifactId>
@@ -32,12 +31,7 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.2</version>
-            </plugin>
-
+            <!-- Plugin para compilar con Java 17 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -48,12 +42,24 @@
                 </configuration>
             </plugin>
 
+            <!-- Plugin para empaquetar como WAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+
+            <!-- Plugin para descargar webapp-runner -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>3.6.0</version>
                 <executions>
                     <execution>
+                        <id>copy-webapp-runner</id>
                         <phase>package</phase>
                         <goals>
                             <goal>copy</goal>
@@ -64,6 +70,7 @@
                                     <groupId>com.github.jsimone</groupId>
                                     <artifactId>webapp-runner</artifactId>
                                     <version>9.0.41.0</version>
+                                    <outputDirectory>${project.build.directory}/dependency</outputDirectory>
                                     <destFileName>webapp-runner.jar</destFileName>
                                 </artifactItem>
                             </artifactItems>
