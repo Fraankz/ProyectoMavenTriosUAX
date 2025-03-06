@@ -10,4 +10,5 @@ RUN mvn clean package
 
 # Etapa de ejecución
 FROM openjdk:17-jdk-slim
-COPY --from=build /target/dependency/w
+COPY --from=build /target/dependency/webapp-runner.jar /webapp-runner.jar
+COPY --from=build /target/*.war /app.war
