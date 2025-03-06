@@ -8,6 +8,8 @@ COPY . .
 RUN mvn dependency:copy-dependencies
 RUN mvn clean package
 
+RUN ls -la /target/dependency/
+
 # Etapa de ejecución
 FROM openjdk:17-jdk-slim
 COPY --from=build /target/dependency/webapp-runner.jar /webapp-runner.jar
