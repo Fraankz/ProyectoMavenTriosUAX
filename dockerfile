@@ -21,4 +21,3 @@ COPY --from=build /app/target/dependency/webapp-runner.jar /app/webapp-runner.ja
 COPY --from=build /app/target/*.war /app/app.war
 
 EXPOSE 8080
-CMD ["java", "-jar", "/app/webapp-runner.jar", "--port", "8080", "/app/app.war"]
