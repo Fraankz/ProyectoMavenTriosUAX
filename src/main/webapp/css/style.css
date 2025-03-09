@@ -1,84 +1,81 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 20px;
-    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-/* Contenedor principal */
 .container {
     width: 50%;
-    margin: auto;
+    margin: 50px auto;
     background: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Títulos */
-h1, h2 {
-    text-align: center;
+h1 {
     color: #333;
 }
 
-/* Formularios */
+h2 {
+    margin-top: 20px;
+    color: #444;
+}
+
 form {
     margin-bottom: 20px;
 }
 
-label {
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
     font-weight: bold;
 }
 
-input[type="text"], input[type="number"] {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-/* Botón de agregar invitados (verde) */
-button.agregar {
+.btn.agregar {
     background-color: #28a745;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    width: 100%;
-    margin-top: 10px;
 }
 
-button.agregar:hover {
+.btn.agregar:hover {
     background-color: #218838;
 }
 
-/* Botón de eliminar invitados (rojo) */
-button.eliminar {
+.btn.eliminar {
     background-color: #dc3545;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    width: 100%;
-    margin-top: 10px;
 }
 
-button.eliminar:hover {
+.btn.eliminar:hover {
     background-color: #c82333;
 }
 
-/* Tabla de invitados */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-th, td {
+table, th, td {
     border: 1px solid #ddd;
-    padding: 8px;
+}
+
+th, td {
+    padding: 10px;
     text-align: center;
 }
 
