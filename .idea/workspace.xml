@@ -4,8 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Cambios en index.jsp">
+    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Cambbios en css y modificacion de index">
+      <change afterPath="$PROJECT_DIR$/src/test/java/controladores/InvitadoServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dao/ConexionBDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dao/InvitadoDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/InvitadoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/servicio/ServicioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad/TDP/controladores/InvitadoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/controladores/InvitadoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/InvitadoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/InvitadoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad/TDP/servicio/Servicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/servicio/Servicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency/webapp-runner.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/classes/webapp-runner.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp2-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-j-8.0.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.21.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +109,7 @@
       <workItem from="1741541642186" duration="2754000" />
       <workItem from="1741548599024" duration="1001000" />
       <workItem from="1741550622227" duration="5421000" />
-      <workItem from="1741556121668" duration="1086000" />
+      <workItem from="1741556121668" duration="4505000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea">
       <option name="closed" value="true" />
@@ -186,7 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741556836756</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Cambbios en css y modificacion de index">
+      <option name="closed" value="true" />
+      <created>1741557379683</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741557379683</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Cambbios en css y modificacion de index">
+      <option name="closed" value="true" />
+      <created>1741557426786</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741557426786</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +254,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Cambios en index.jsp InvitadoDAO y InvitadoServlet" />
     <MESSAGE value="Cambios en index.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios en index.jsp" />
+    <MESSAGE value="Cambbios en css y modificacion de index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambbios en css y modificacion de index" />
   </component>
 </project>

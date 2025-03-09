@@ -2,42 +2,24 @@ package Actividad.TDP.servicio;
 
 import Actividad.TDP.dao.InvitadoDAO;
 import Actividad.TDP.modelo.Invitado;
-import java.util.List;
 
 public class Servicio {
-    private final InvitadoDAO invitadoDAO;
+    private InvitadoDAO invitadoDAO;
 
+    // Constructor sin parámetros (por si se usa en otro lado)
     public Servicio() {
         this.invitadoDAO = new InvitadoDAO();
     }
 
-    /**
-     * Agrega un nuevo invitado a la base de datos.
-     *
-     * @param nombre Nombre del invitado a agregar.
-     * @return true si la operación fue exitosa, false en caso contrario.
-     */
+    // Constructor con `InvitadoDAO` (para pruebas)
+    public Servicio(InvitadoDAO invitadoDAO) {
+        this.invitadoDAO = invitadoDAO;
+    }
+
     public boolean agregarInvitado(String nombre) {
-        Invitado nuevoInvitado = new Invitado(nombre);
-        return invitadoDAO.insertarInvitado(nuevoInvitado);
-    }
-
-    /**
-     * Elimina un invitado de la base de datos dado su ID.
-     *
-     * @param id ID del invitado a eliminar.
-     * @return true si la operación fue exitosa, false en caso contrario.
-     */
-    public boolean eliminarInvitado(int id) {
-        return invitadoDAO.eliminarInvitado(id);
-    }
-
-    /**
-     * Obtiene la lista de todos los invitados registrados en la base de datos.
-     *
-     * @return Lista de objetos Invitado.
-     */
-    public List<Invitado> obtenerInvitados() {
-        return invitadoDAO.obtenerTodosLosInvitados();
+        if (nombre == null || nombre.trim().isEmpty()) {
+            return false;
+        }
+        return invitadoDAO.insertarInvitado(new Invitado(0, nombre));
     }
 }

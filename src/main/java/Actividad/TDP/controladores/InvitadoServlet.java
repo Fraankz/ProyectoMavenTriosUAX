@@ -11,7 +11,7 @@ import java.io.IOException;
 public class InvitadoServlet extends HttpServlet {
     private InvitadoDAO dao = new InvitadoDAO();
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
 
         if ("agregar".equals(action)) {
