@@ -2,21 +2,26 @@ package Actividad.TDP.controladores;
 
 import Actividad.TDP.dao.InvitadoDAO;
 import Actividad.TDP.modelo.Invitado;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
-import java.util.List;
 
-
-@WebServlet("/invitado")
+@WebServlet("/InvitadoServlet")
 public class InvitadoServlet extends HttpServlet {
-    protected void doGet(@org.jetbrains.annotations.NotNull HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        InvitadoDAO dao = new InvitadoDAO();
-        List<Invitado> invitados = dao.obtenerTodosLosInvitados(); // Eliminamos el try-catch innecesario
+    private InvitadoDAO dao = new InvitadoDAO();
 
-        request.setAttribute("invitados", invitados);
-        request.getRequestDispatcher("/jsp/consulta.jsp").forward(request, response);
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String action = request.getParameter("action");
+
+        if ("agregar".equals(action)) {
+            String nombre = request.getParameter("nombre");
+            dao.insertarInvitado(new Invitado(nombre));
+        } else if ("eliminar".equals(action)) {
+            int id = Integer.parseInt(request.getParameter("id"));
+            dao.eliminarInvitado(id);
+        }
+
+        response.sendRedirect("index.jsp"); // Redirige de nuevo a la página principal
     }
 }
