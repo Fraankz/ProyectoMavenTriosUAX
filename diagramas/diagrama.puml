@@ -1,0 +1,54 @@
+@startuml
+
+package "Actividad.TDP.modelo" {
+    class Invitado {
+        - int id
+        - String nombre
+        + Invitado()
+        + Invitado(String nombre)
+        + Invitado(int id, String nombre)
+        + getId(): int
+        + setId(int id)
+        + getNombre(): String
+        + setNombre(String nombre)
+    }
+}
+
+package "Actividad.TDP.dao" {
+    class ConexionBD {
+        + getConnection(): Connection
+    }
+
+    class InvitadoDAO {
+        - static final String URL
+        - static final String USUARIO
+        - static final String CONTRASEÑA
+        + insertarInvitado(Invitado invitado): boolean
+        + eliminarInvitado(int id): boolean
+        + obtenerTodosLosInvitados(): List<Invitado>
+    }
+}
+
+package "Actividad.TDP.servicio" {
+    class Servicio {
+        - InvitadoDAO invitadoDAO
+        + Servicio()
+        + agregarInvitado(String nombre): boolean
+        + eliminarInvitado(int id): boolean
+        + obtenerInvitados(): List<Invitado>
+    }
+}
+
+package "Actividad.TDP.controladores" {
+    class InvitadoServlet {
+        + doGet(HttpServletRequest request, HttpServletResponse response)
+    }
+}
+
+' Relaciones entre las clases
+InvitadoDAO --> ConexionBD : "Usa"
+Servicio --> InvitadoDAO : "Tiene una instancia de"
+Servicio --> Invitado : "Usa"
+InvitadoServlet --> Servicio : "Usa para obtener datos"
+
+@enduml

@@ -1,7 +1,6 @@
-Actividad\TDP\controladores\HolaServlet.class
-Actividad\TDP\modelo\Invitado.class
-Actividad\TDP\Main.class
-Actividad\TDP\dao\ConexionBD.class
-Actividad\TDP\servicio\Servicio.class
-Actividad\TDP\controladores\InvitadoServlet.class
-Actividad\TDP\dao\InvitadoDAO.class
+Actividad/TDP/servicio/Servicio.class
+Actividad/TDP/controladores/HolaServlet.class
+Actividad/TDP/modelo/Invitado.class
+Actividad/TDP/dao/ConexionBD.class
+Actividad/TDP/dao/InvitadoDAO.class
+Actividad/TDP/controladores/InvitadoServlet.class
