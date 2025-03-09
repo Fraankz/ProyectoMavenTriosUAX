@@ -1,8 +1,7 @@
 # Proyecto: Sistema de Gestión de Invitados
 
 ## 📌 Contexto y Objetivos del Proyecto
-Este proyecto se desarrolla en el marco del curso de **Desarrollo de Aplicaciones Web**. El objetivo es crear un **sistema de gestión de invitados** para eventos como conferencias, bodas o seminarios. 
-
+Este proyecto se desarrolla en el marco del curso de **Desarrollo de Aplicaciones Web**. El objetivo es crear un **sistema de gestión de invitados**.
 Se busca aplicar los conocimientos adquiridos en **Java, JSP y Maven**, así como desplegar la aplicación en una **plataforma gratuita** sin necesidad de verificación con tarjeta de crédito.
 
 ---
@@ -12,7 +11,6 @@ El sistema permitirá:
 1. **Consultar invitados** registrados en la base de datos.
 2. **Agregar invitados** mediante un formulario.
 3. **Eliminar invitados** de la lista.
-4. (Opcional) **Buscar y actualizar invitados**.
 
 Cada funcionalidad se implementará en **páginas JSP independientes** para mejorar la organización del código.
 
@@ -36,36 +34,9 @@ Cada funcionalidad se implementará en **páginas JSP independientes** para mejo
 
 ### **3️⃣ Despliegue de la Aplicación en Railway**
 - Se usa **Webapp Runner** para ejecutar la aplicación en **Apache Tomcat**.
-- Configuración en `pom.xml`:
-  ```xml
-  <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-dependency-plugin</artifactId>
-      <version>3.0.2</version>
-      <executions>
-          <execution>
-              <phase>package</phase>
-              <goals>
-                  <goal>copy</goal>
-              </goals>
-              <configuration>
-                  <artifactItems>
-                      <artifactItem>
-                          <groupId>com.github.jsimone</groupId>
-                          <artifactId>webapp-runner</artifactId>
-                          <version>8.5.31.0</version>
-                          <destFileName>webapp-runner.jar</destFileName>
-                      </artifactItem>
-                  </artifactItems>
-              </configuration>
-          </execution>
-      </executions>
-  </plugin>
-  ```
-
-- **Comando de despliegue en Railway:**
+- **Comando de despliegue en Render:**
   ```sh
-  java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
+  java -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
   ```
 
 ### **4️⃣ Configuración de la Base de Datos**
@@ -90,12 +61,12 @@ Cada funcionalidad se implementará en **páginas JSP independientes** para mejo
 ---
 
 ## 📌 Pasos del Desarrollo
-✅ **Inicio del Proyecto Maven** → Configuración de estructura y dependencias.
-✅ **Desarrollo Backend** → Implementación de **DAO y conexión con MySQL**.
-✅ **Creación de JSPs** → Formularios para **insertar, listar y eliminar invitados**.
-✅ **Configuración Webapp Runner** → Para ejecutar en **Tomcat en Railway**.
-✅ **Despliegue en Railway** → Subir proyecto a **GitHub** y configurarlo en **Railway**.
-✅ **Pruebas y Depuración** → Corrección de errores en **logs y base de datos**.
+✅ **Inicio del Proyecto Maven** → Configuración de estructura y dependencias.  
+✅ **Desarrollo Backend** → Implementación de **DAO y conexión con MySQL**.  
+✅ **Creación de JSPs** → Formularios para **insertar, listar y eliminar invitados**.  
+✅ **Configuración Webapp Runner** → Para ejecutar en **Render con Railway**.  
+✅ **Despliegue en Railway** → Subir proyecto a **GitHub** y configurarlo en **Railway**.  
+✅ **Pruebas y Depuración** → Corrección de errores en **logs y base de datos**.  
 
 ---
 
@@ -122,9 +93,7 @@ java -jar target/dependency/webapp-runner.jar --port 8080 target/*.war
 ---
 
 ## **👨‍💻 Equipo de Desarrollo**
-- **Integrante 1** - Desarrollo Backend
-- **Integrante 2** - Desarrollo Frontend JSP
-- **Integrante 3** - Despliegue y Base de Datos
+- **David Pérez Pérez @davipepeuax** - Desarrollo Backend
+- **Frank David Quezada Ochoa @Fraankz** - Desarrollo Frontend JSP
 
-✉ **Contacto:** `email@ejemplo.com`
 
