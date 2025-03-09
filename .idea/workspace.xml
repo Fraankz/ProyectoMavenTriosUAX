@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Añadidas clases Invitado, InvitadoDAO e InvitadoServlet a sus respectivos paquetes" />
+    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Añadidas clases Invitado, InvitadoDAO e InvitadoServlet a sus respectivos paquetes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/ConexionBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/ConexionBD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/InvitadoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/InvitadoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +41,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Fraankz/ProyectoMavenTriosUAX.git&quot;,
-    &quot;accountId&quot;: &quot;55090d26-6c48-47ad-b38d-f41d2f3814d4&quot;
+    &quot;accountId&quot;: &quot;c9d1ee94-4e3b-48e4-a28c-f6b33398a563&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -48,6 +60,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.TestConexion.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -63,8 +76,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
       </set>
     </attachedChunks>
   </component>
@@ -77,6 +90,9 @@
       <option name="presentableId" value="Default" />
       <updated>1741020228125</updated>
       <workItem from="1741020229742" duration="6759000" />
+      <workItem from="1741541642186" duration="2754000" />
+      <workItem from="1741548599024" duration="1001000" />
+      <workItem from="1741550622227" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea">
       <option name="closed" value="true" />

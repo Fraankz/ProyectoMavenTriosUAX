@@ -1,5 +1,7 @@
-/Users/frank/Desktop/Ingenieria Informatica/2C/Tecnicas de programacion/ProyectoMavenTriosUAX/src/main/java/Actividad/TDP/controladores/InvitadoServlet.java
-/Users/frank/Desktop/Ingenieria Informatica/2C/Tecnicas de programacion/ProyectoMavenTriosUAX/src/main/java/Actividad/TDP/Main.java
-/Users/frank/Desktop/Ingenieria Informatica/2C/Tecnicas de programacion/ProyectoMavenTriosUAX/src/main/java/Actividad/TDP/controladores/HolaServlet.java
-/Users/frank/Desktop/Ingenieria Informatica/2C/Tecnicas de programacion/ProyectoMavenTriosUAX/src/main/java/Actividad/TDP/dao/InvitadoDAO.java
-/Users/frank/Desktop/Ingenieria Informatica/2C/Tecnicas de programacion/ProyectoMavenTriosUAX/src/main/java/Actividad/TDP/modelo/Invitado.java
+C:\Users\davvi\IdeaProjects\ProyectoMavenTriosUAX\src\main\java\Actividad\TDP\Main.java
+C:\Users\davvi\IdeaProjects\ProyectoMavenTriosUAX\src\main\java\Actividad\TDP\dao\InvitadoDAO.java
+C:\Users\davvi\IdeaProjects\ProyectoMavenTriosUAX\src\main\java\Actividad\TDP\modelo\Invitado.java
+C:\Users\davvi\IdeaProjects\ProyectoMavenTriosUAX\src\main\java\Actividad\TDP\controladores\InvitadoServlet.java
+C:\Users\davvi\IdeaProjects\ProyectoMavenTriosUAX\src\main\java\Actividad\TDP\controladores\HolaServlet.java
+C:\Users\davvi\IdeaProjects\ProyectoMavenTriosUAX\src\main\java\Actividad\TDP\dao\ConexionBD.java
+C:\Users\davvi\IdeaProjects\ProyectoMavenTriosUAX\src\main\java\Actividad\TDP\servicio\Servicio.java
