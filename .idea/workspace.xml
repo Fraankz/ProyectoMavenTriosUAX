@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Añadidas clases Invitado, InvitadoDAO e InvitadoServlet a sus respectivos paquetes">
+    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Base de datos creada y conexion realizada.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/ConexionBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/ConexionBD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/InvitadoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/InvitadoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/gestion-invitados-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +82,7 @@
       <workItem from="1741020229742" duration="6759000" />
       <workItem from="1741541642186" duration="2754000" />
       <workItem from="1741548599024" duration="1001000" />
-      <workItem from="1741550622227" duration="1048000" />
+      <workItem from="1741550622227" duration="2163000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea">
       <option name="closed" value="true" />
@@ -102,7 +92,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741100203747</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Añadidas clases Invitado, InvitadoDAO e InvitadoServlet a sus respectivos paquetes">
+      <option name="closed" value="true" />
+      <created>1741552003154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741552003154</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Base de datos creada y conexion realizada.">
+      <option name="closed" value="true" />
+      <created>1741552042975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741552042975</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +118,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea" />
     <MESSAGE value="Añadidas clases Invitado, InvitadoDAO e InvitadoServlet a sus respectivos paquetes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadidas clases Invitado, InvitadoDAO e InvitadoServlet a sus respectivos paquetes" />
+    <MESSAGE value="Base de datos creada y conexion realizada." />
+    <option name="LAST_COMMIT_MESSAGE" value="Base de datos creada y conexion realizada." />
   </component>
 </project>

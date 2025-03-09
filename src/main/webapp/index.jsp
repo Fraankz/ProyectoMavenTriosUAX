@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Gestión de Invitados</title>
-    <link rel="stylesheet" href="../css/style.css"> <!-- Enlace al CSS actualizado -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Enlace al CSS actualizado -->
 </head>
 <body>
 <div class="container">
