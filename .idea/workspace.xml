@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Movido index fuera de la carpeta">
+    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Cambios conexion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/ConexionBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/ConexionBD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       <workItem from="1741020229742" duration="6759000" />
       <workItem from="1741541642186" duration="2754000" />
       <workItem from="1741548599024" duration="1001000" />
-      <workItem from="1741550622227" duration="4047000" />
+      <workItem from="1741550622227" duration="5421000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea">
       <option name="closed" value="true" />
@@ -130,11 +129,54 @@
       <option name="project" value="LOCAL" />
       <updated>1741553166042</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Cambio en conexion">
+      <option name="closed" value="true" />
+      <created>1741554748555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741554748555</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cambio en conexion">
+      <option name="closed" value="true" />
+      <created>1741554818506</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741554818506</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cambio en conexion">
+      <option name="closed" value="true" />
+      <created>1741554861329</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741554861329</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Cambios conexion">
+      <option name="closed" value="true" />
+      <created>1741554959992</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741554959992</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
@@ -143,6 +185,9 @@
     <MESSAGE value="Base de datos creada y conexion realizada." />
     <MESSAGE value="Movido fuera de la carpeta" />
     <MESSAGE value="Movido index fuera de la carpeta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movido index fuera de la carpeta" />
+    <MESSAGE value="Cambio en conexion" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Cambios conexion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios conexion" />
   </component>
 </project>
