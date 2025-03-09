@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Gestión de Invitados</title>
-    <link rel="stylesheet" href="../css/style.css"> <!-- Enlace al nuevo archivo CSS -->
+    <link rel="stylesheet" href="../css/style.css"> <!-- Enlace al CSS actualizado -->
 </head>
 <body>
 <div class="container">
@@ -14,14 +14,14 @@
     <form action="InvitadoServlet" method="post">
         <label for="nombre">Nombre del Invitado:</label>
         <input type="text" id="nombre" name="nombre" required>
-        <button type="submit" name="accion" value="agregar">Agregar Invitado</button>
+        <button type="submit" class="agregar" name="accion" value="agregar">Agregar Invitado</button>
     </form>
 
     <!-- Formulario para eliminar invitados -->
     <form action="InvitadoServlet" method="post">
         <label for="id">ID del Invitado a Eliminar:</label>
         <input type="number" id="id" name="id" required>
-        <button type="submit" name="accion" value="eliminar">Eliminar Invitado</button>
+        <button type="submit" class="eliminar" name="accion" value="eliminar">Eliminar Invitado</button>
     </form>
 
     <!-- Lista de invitados -->

@@ -17,7 +17,7 @@ body {
 }
 
 /* Títulos */
-h1 {
+h1, h2 {
     text-align: center;
     color: #333;
 }
@@ -39,7 +39,8 @@ input[type="text"], input[type="number"] {
     border-radius: 5px;
 }
 
-button {
+/* Botón de agregar invitados (verde) */
+button.agregar {
     background-color: #28a745;
     color: white;
     border: none;
@@ -49,8 +50,23 @@ button {
     margin-top: 10px;
 }
 
-button:hover {
+button.agregar:hover {
     background-color: #218838;
+}
+
+/* Botón de eliminar invitados (rojo) */
+button.eliminar {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button.eliminar:hover {
+    background-color: #c82333;
 }
 
 /* Tabla de invitados */
