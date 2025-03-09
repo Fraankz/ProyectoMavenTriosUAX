@@ -1,51 +1,41 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
-<html lang="es">
+<%@ page import="Actividad.TDP.dao.InvitadoDAO" %>
+<%@ page import="Actividad.TDP.modelo.Invitado" %>
+<%@ page import="java.util.List" %>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Gestión de Invitados</title>
-    <link rel="stylesheet" href="css/style.css"> <!-- Enlace al CSS actualizado -->
 </head>
 <body>
-<div class="container">
-    <h1>Gestión de Invitados</h1>
+<h1>Gestión de Invitados</h1>
 
-    <!-- Formulario para agregar invitados -->
-    <form action="InvitadoServlet" method="post">
-        <label for="nombre">Nombre del Invitado:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        <button type="submit" class="agregar" name="accion" value="agregar">Agregar Invitado</button>
-    </form>
+<h2>Agregar Invitado</h2>
+<form action="InvitadoServlet" method="POST">
+    <label for="nombre">Nombre del Invitado:</label>
+    <input type="text" name="nombre" id="nombre" required>
+    <input type="hidden" name="action" value="agregar">
+    <button type="submit">Agregar Invitado</button>
+</form>
 
-    <!-- Formulario para eliminar invitados -->
-    <form action="InvitadoServlet" method="post">
-        <label for="id">ID del Invitado a Eliminar:</label>
-        <input type="number" id="id" name="id" required>
-        <button type="submit" class="eliminar" name="accion" value="eliminar">Eliminar Invitado</button>
-    </form>
-
-    <!-- Lista de invitados -->
-    <h2>Lista de Invitados</h2>
-    <table>
-        <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-        </tr>
-        <%
-            java.util.List<Actividad.TDP.modelo.Invitado> invitados =
-                    (java.util.List<Actividad.TDP.modelo.Invitado>) request.getAttribute("invitados");
-            if (invitados != null) {
-                for (Actividad.TDP.modelo.Invitado invitado : invitados) {
-        %>
-        <tr>
-            <td><%= invitado.getId() %></td>
-            <td><%= invitado.getNombre() %></td>
-        </tr>
-        <%
-                }
-            }
-        %>
-    </table>
-</div>
+<h2>Lista de Invitados</h2>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+    </tr>
+    <%
+        InvitadoDAO dao = new InvitadoDAO();
+        List<Invitado> invitados = dao.obtenerTodosLosInvitados();
+        for (Invitado invitado : invitados) {
+    %>
+    <tr>
+        <td><%= invitado.getId() %></td>
+        <td><%= invitado.getNombre() %></td>
+    </tr>
+    <%
+        }
+    %>
+</table>
 </body>
 </html>

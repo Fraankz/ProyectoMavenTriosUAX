@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Cambios conexion">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Archivos corregidos y actualizados: ConexionBD.java &#10;InvitadoDAO.java → Depuración y corrección en insertarInvitado&#10;InvitadoServlet.java → Manejador de solicitudes POST" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +86,7 @@
       <workItem from="1741541642186" duration="2754000" />
       <workItem from="1741548599024" duration="1001000" />
       <workItem from="1741550622227" duration="5421000" />
+      <workItem from="1741556121668" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea">
       <option name="closed" value="true" />
@@ -161,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741554959992</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Archivos corregidos y actualizados: ConexionBD.java &#10;InvitadoDAO.java → Depuración y corrección en insertarInvitado&#10;InvitadoServlet.java → Manejador de solicitudes POST">
+      <option name="closed" value="true" />
+      <created>1741556277832</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741556277832</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Archivos corregidos y actualizados: ConexionBD.java &#10;InvitadoDAO.java → Depuración y corrección en insertarInvitado&#10;InvitadoServlet.java → Manejador de solicitudes POST">
+      <option name="closed" value="true" />
+      <created>1741556306993</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741556306993</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +202,9 @@
     <MESSAGE value="Movido index fuera de la carpeta" />
     <MESSAGE value="Cambio en conexion" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value=" Archivos corregidos y actualizados: 1️⃣ ConexionBD.java → Verifica la conexión con Railway.&#10;2️⃣ InvitadoDAO.java → Depuración y corrección en insertarInvitado().&#10;3️⃣ InvitadoServlet.java → Manejador de solicitudes POST con mejor control de errores." />
     <MESSAGE value="Cambios conexion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios conexion" />
+    <MESSAGE value="Archivos corregidos y actualizados: ConexionBD.java &#10;InvitadoDAO.java → Depuración y corrección en insertarInvitado&#10;InvitadoServlet.java → Manejador de solicitudes POST" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archivos corregidos y actualizados: ConexionBD.java &#10;InvitadoDAO.java → Depuración y corrección en insertarInvitado&#10;InvitadoServlet.java → Manejador de solicitudes POST" />
   </component>
 </project>
