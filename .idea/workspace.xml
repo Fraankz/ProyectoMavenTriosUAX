@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Base de datos creada y conexion realizada.">
+    <list default="true" id="64caedbc-c238-4e97-9f8b-214c65219240" name="Changes" comment="Movido index fuera de la carpeta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/ConexionBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad/TDP/dao/ConexionBD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\davvi\IdeaProjects\ProyectoMavenTriosUAX\src\main\webapp" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +88,7 @@
       <workItem from="1741020229742" duration="6759000" />
       <workItem from="1741541642186" duration="2754000" />
       <workItem from="1741548599024" duration="1001000" />
-      <workItem from="1741550622227" duration="2163000" />
+      <workItem from="1741550622227" duration="4047000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea">
       <option name="closed" value="true" />
@@ -108,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741552042975</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Movido fuera de la carpeta">
+      <option name="closed" value="true" />
+      <created>1741553034749</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741553034749</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Movido index fuera de la carpeta">
+      <option name="closed" value="true" />
+      <created>1741553166042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741553166042</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +141,8 @@
     <MESSAGE value="Creación de la estrucutra del proyecto con carpetas y clases principales y eliminado .gitignore redundante de .idea" />
     <MESSAGE value="Añadidas clases Invitado, InvitadoDAO e InvitadoServlet a sus respectivos paquetes" />
     <MESSAGE value="Base de datos creada y conexion realizada." />
-    <option name="LAST_COMMIT_MESSAGE" value="Base de datos creada y conexion realizada." />
+    <MESSAGE value="Movido fuera de la carpeta" />
+    <MESSAGE value="Movido index fuera de la carpeta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Movido index fuera de la carpeta" />
   </component>
 </project>
